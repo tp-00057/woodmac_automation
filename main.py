@@ -4,7 +4,6 @@ from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 import time
 
-
 @asynccontextmanager
 async def get_playwright_page(fullscreen=False):
     """
